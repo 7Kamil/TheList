@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+}
+.main {
+  margin: 0 auto;
+  margin-top: 50vh;
+  transform: translateY(-50%);
+}
+.list{
+  width: 336px;
+  border-radius: 10px;
+  border: 1px solid #C4C4C4;
+  margin-left: 25%;
+}
+.color {
+  width: 336px;
+  height: 28px;
+  border-radius: 9px 10px 0 0;
+  background-color: #ffda35;
+}
+h1 b{
+  margin-left: 94px;
+  width: 165px;
+  height: 34px;
+  margin-bottom: -10px;
+}
+.filter_icon{
+  width: 25px;
+  height: 15px;
+  margin-right: 30px;
+  transition: all .4s;
+}
+.filter_icon.down{
+  background-image: url("images/dilterg.svg");
+}
+
+.filter_icon.up{
+  width: 25px;
+  height: 18px;
+  background-image: url("images/upilterg.svg");
+}
+.filter_icon.down:hover{
+  background-image: url("images/dilterb.svg");
+}
+.filter_icon.up:hover{
+  width: 25px;
+  height: 15px;
+  background-image: url("images/upilterb.svg");
+}
+.aclock{
+  margin-top: 8px;
+  margin-bottom: 22px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+  align-items: center;
+}
+.tblock{
+  border-radius: 10px;
+  border: 1px solid #C4C4C4;
+}
+.filter {
+  height: 15px;
+  display: flex;
+  margin-top: 26px;
+  justify-content: end;
+}
+.plus{
+  background-color: #9953F1;
+  display: flex;
+  justify-content: center;
+  border-radius: 71px;
+  align-items: center;
+  margin-right: 8px;
+  height: 38px;
+  width: 38px;
+  font-size: 15px;
+}
+.text{
+  display: flex;
+  align-items: center;
+  width: 286px;
+  max-height: 200px;
+}
+.text_input{
+  border: none;
+  height: 38px;
+  font-size: 14px;
+  flex: 1 0;
+  margin-left: 13px;
+}
+.text_input:focus{
+  outline: none;
+} 
+.add_button{
+  width: 150px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  background-color: #833AE0;
+  color: white;
+  margin-top: 22px;
+  border-radius: 71px;
+  border: none;
+}
+.add_button p{
+  margin-left: 3px;
+}
+.add_button:hover{
+  background-color: #933efc;
+}
+.add_button:hover .plus{
+  background-color: #a45ffd;
+}
+.delete_button{
+  width: 20px;
+  height: 20px;
+  margin-right: 18px;
+  transition: all .4s;
+  background-image: url("images/dsway.svg");
+}
+.delete_button:hover{
+  width: 25px;
+  height: 25px;
+  margin-top: 5px;
+  background-image: url("images/dspurp.svg");
+}
