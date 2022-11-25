@@ -33,7 +33,6 @@ filcon.addEventListener("click", () => {
 let a="up";
 let b="down";
 k=k+1;
-  
 if(k%2==1){
 inputs(1,-1,b,a);
 }
